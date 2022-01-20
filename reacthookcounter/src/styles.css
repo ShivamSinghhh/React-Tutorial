@@ -1,0 +1,14 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+button {
+  font-weight: bold;
+  font-size: 20px;
+  background-color: salmon;
+  width: 35%;
+  height: 50px;
+  margin-top: 8px;
+  margin-left: 10px;
+  border-radius: 5px;
+}
