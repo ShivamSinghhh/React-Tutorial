@@ -8,11 +8,18 @@ export default function App() {
 
   let h2 = "Mobile Manufacturers";
   let arr2 = ["Samsung", "HTC", "Micromax", "Apple"];
+ 
 
-  return (
+  return (   
     <div className="App header">
-      <Card heading={h1} arr={arr1}>Hello child</Card>
-      <Card heading={h2} arr={arr2}>Hello child</Card>
-    </div>
+      
+    <Card heading={h1} arr={arr1}></Card>
+    <Todos name="Shivam" city="Bengaluru"/>
+    <Card heading={h2} arr={arr2}></Card>
+  </div>
   );
+
+  function Todos({name,city}){
+    return <h1 style={{color:"red"}}>My name is {name}. I live in {city}</h1>
+  }
 }

@@ -1,0 +1,9 @@
+.Posts {
+  text-align: left;
+  margin: 20px;
+  color: maroon;
+  background-color: blanchedalmond;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 5px 15px;
+}
