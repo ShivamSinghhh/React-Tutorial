@@ -1,4 +1,0 @@
-{
-    "todos":[{"title": "learn react","id":1},{"title": "explore Vue","id":2}],
-    "users":[{"name": "Shivam","id":1},{"name": "Anmol","id":2}]
-}
