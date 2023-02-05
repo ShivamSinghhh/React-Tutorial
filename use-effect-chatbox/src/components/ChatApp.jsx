@@ -6,7 +6,7 @@ import Contacts from "./Contacts";
 function ChatApp() {
   const [messages, setMessages] = useState([]);
   const [subscribedTo, setSubscribedTo] = useState(users[0]);
-  // const [active,setActive] = useState(subscribeTo)
+
   // subscibeTo current user
   // const connection = createConnection(currentUser)
   // Listen(callback)
@@ -29,7 +29,7 @@ function ChatApp() {
        console.log("cleanUp function called")
     }
     return cleanUpFunction;
-  }, [subscribedTo]);
+  },[subscribedTo]);
  // console.log("subscribedTo", subscribedTo.name);
 
   return (
