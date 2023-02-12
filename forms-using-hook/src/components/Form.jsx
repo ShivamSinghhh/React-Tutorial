@@ -59,7 +59,7 @@ export default function Form() {
           <label htmlFor="">
             COUNTRY{" "}
             <select onChange={handleChange} name="country" value={country}>
-            {/* <option value=""></option> */}
+              <option value=""></option>
               <option value="india">India</option>
               <option value="uae">UAE</option>
               <option value="canada">Canada</option>
@@ -71,7 +71,12 @@ export default function Form() {
           <br />
           <label htmlFor="">
             Are you Married ?{" "}
-            <input type="checkbox" name="isMarried" checked={isMarried} onChange={handleChange}/>
+            <input
+              type="checkbox"
+              name="isMarried"
+              checked={isMarried}
+              onChange={handleChange}
+            />
           </label>{" "}
           <br />
           <br />
