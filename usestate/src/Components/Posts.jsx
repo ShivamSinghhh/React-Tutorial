@@ -15,8 +15,8 @@ function Posts() {
     }
   };
 
-  const getData = () => {
-    return fetch(`https://jsonplaceholder.typicode.com/posts?_limit=10`).then(
+  const getData = async() => {
+    return await fetch(`https://jsonplaceholder.typicode.com/posts?_limit=10`).then(
       (res) => res.json()
     );
   };

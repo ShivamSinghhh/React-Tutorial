@@ -1,0 +1,16 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 15px;
+  margin: 15px 55px;
+}
+.item-box {
+  border: 2px solid grey;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px 3px teal;;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+}
