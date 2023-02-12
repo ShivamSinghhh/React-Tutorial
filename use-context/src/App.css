@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+}
+
+button {
+  padding: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  border: 1px solid teal;
+  border-radius: 5px;
+  color: indianred;
+}

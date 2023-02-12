@@ -1,0 +1,14 @@
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;   
+}
+.dark {
+    background-color: darkslategrey;
+    color: goldenrod;
+  }
+  .light {
+    background-color: #dfecef;
+    color: black;
+  }
+  
