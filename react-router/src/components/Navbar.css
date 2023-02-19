@@ -1,0 +1,14 @@
+.nav-bar {
+  display: flex;
+  justify-content: space-around;
+  font-weight: 500;
+  padding: 10px;
+  align-items: center;
+  background-color: lightpink;
+}
+.active {
+  padding: 3px 10px;
+  text-decoration: none;
+  background-color: lightcoral;
+  border-radius: 5px;
+}
